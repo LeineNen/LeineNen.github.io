@@ -18,47 +18,54 @@ h2 {}
 
 
 /* ------navbar section------ */
-nav{
+nav {
     padding: 4rem 0;
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-links{
+
+.nav-links {
     display: flex;
     column-gap: 30px;
 }
-.nav-links a{
-    color:rgb(179, 176, 176);
+
+.nav-links a {
+    color: rgb(179, 176, 176);
 }
-.nav-links a:hover{
-    color:white;
+
+.nav-links a:hover {
+    color: white;
 }
 
 /* ------Hero Section ----------- */
-.hero-grid{
+.hero-grid {
     display: grid;
     grid-template-columns: 1.2fr 2fr 1.2fr;
     /* place-items: center; */
 }
-.grid-item{
+
+.grid-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
-.image-container{
+
+.image-container {
     position: relative;
     width: 300px;
-    
+
     padding: 10%;
     margin: auto;
     border-radius: 50%;
     background-color: #FB4866;
 }
-.image-container img{
+
+.image-container img {
     border-radius: 50%;
     width: 300px;
     height: 300px;
@@ -67,7 +74,59 @@ nav{
 
 
 
+
 /* -------Works section ------ */
 
 
 /* -----About section ------ */
+
+/* --------Footer Section------ */
+.main-footer {
+    margin: 50px;
+}
+
+.footer-center {
+    border-radius: 10px;
+    margin: 50px;
+    border: 5px solid gray;
+    height: 70vh;
+    text-align: center;
+
+}
+
+.talent {
+    margin-top: 150px;
+}
+
+.talent h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.talent p {
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.footer-anchors {
+    margin-top: 40px;
+}
+
+.footer-anchors a {
+    color: rgb(194, 189, 189);
+    column-gap: 50px;
+
+}
+
+.download-cv {
+    margin: 60px;
+}
+
+.cv-buttons {
+    margin-top: 100px;
+}
+
+.footer-out {
+    display: flex;
+    justify-content: space-between;
+}
